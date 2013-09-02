@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MapLight">
+        <wb-resource deploy-path="/" source-path="/apps/GrocerMap/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/GrocerMap/desktopbrowser"/>
+        <wb-resource deploy-path="/" source-path="/apps/GrocerMap/android"/>
+        <property name="context-root" value="MapLight"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8" /> 
+<link rel="stylesheet" type="text/css" href="css/index.css" /> 
+<script 
+   type="text/javascript" 
+   src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
+</script>        <script type="text/javascript" src="js/index.js"></script> 
+<title>Bing Maps</title> 
+</head> 
+<body> 
+<div id='divSearch' 
+ style="position:absolute; top:5px; left:0px; right:0px; height:50px; 
+   background-color:White; "> 
+<input id="txtSearch" type="text" class="searchBox" /> 
+<img id="btnSearch" src="./img/search.png" alt="" 
+ style="position:absolute; top:0px; right:0px; 
+   cursor:pointer" onclick="LoadSearchModule()" /> 
+</div> 
+
+  <div id="divMap" style="width:100%; height:92%; 
+   position:absolute; left:0px; top:55px;"></div> 
+</body> 
+</html>
