@@ -1,4 +1,4 @@
-MapLight
+MapApps
 ========
 
 Location-based apps
